@@ -12,7 +12,7 @@ This is the [marked](https://github.com/markedjs/marked) library (v15.0.0) rewri
 </template>
 
 <script setup>
-import { ref, watch, onMounted, h } from 'vue';
+import { ref, watch, onMounted } from 'vue';
 import { marked } from '../marked';
 
 const markdownText = ref("### Hello World!\nThis is a [link](http://example.com)");
