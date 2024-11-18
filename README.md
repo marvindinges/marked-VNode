@@ -8,11 +8,7 @@ This is the [marked](https://github.com/markedjs/marked) library (v15.0.0) rewri
 ```vue
 <template>  
     <textarea v-model="markdownText"/>
-    <component 
-     v-for="(node, index) in renderedNodes" 
-     :key="index" 
-    :is="node"
-    />
+    <component v-for="(node, index) in renderedNodes :key="index :is="node"/>
 </template>
 
 <script setup>
