@@ -2,7 +2,7 @@
 This is the [marked](https://github.com/markedjs/marked) library (v15.0.0) rewritten to return a VNode array, allowing you to use custom Vue components with it.
 
 > [!CAUTION]  
-> This library is untested and I am very inexperienced with JavaScript & TypeScript. Use at your own risk.
+> This library is untested, use it at your own risk.
 
 ## Usage
 ```vue
